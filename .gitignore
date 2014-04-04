@@ -1,0 +1,12 @@
+project.xcworkspace
+xcuserdata
+dev/Baler/MyBalerBundle.h
+dev/Baler/MyBalerBundle.m
+dev/Baler/MyBalerBundleUncompressed.h
+dev/Baler/MyBalerBundleUncompressed.m
+
+.DS_Store
+build
+*.egg-info
+dist
+*.pyc

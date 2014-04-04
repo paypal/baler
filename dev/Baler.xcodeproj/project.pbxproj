@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B593C43915ED74FE003CFD6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B593C43815ED74FE003CFD6A /* UIKit.framework */; };
+		B593C43B15ED74FE003CFD6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B593C43A15ED74FE003CFD6A /* Foundation.framework */; };
+		B593C43D15ED74FE003CFD6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B593C43C15ED74FE003CFD6A /* CoreGraphics.framework */; };
+		B593C44315ED74FE003CFD6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B593C44115ED74FE003CFD6A /* InfoPlist.strings */; };
+		B593C44515ED74FE003CFD6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B593C44415ED74FE003CFD6A /* main.m */; };
+		B593C44915ED74FE003CFD6A /* BalerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B593C44815ED74FE003CFD6A /* BalerAppDelegate.m */; };
+		B593C45115ED74FE003CFD6A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B593C45015ED74FE003CFD6A /* SenTestingKit.framework */; };
+		B593C45215ED74FE003CFD6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B593C43815ED74FE003CFD6A /* UIKit.framework */; };
+		B593C45315ED74FE003CFD6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B593C43A15ED74FE003CFD6A /* Foundation.framework */; };
+		B593C45B15ED74FE003CFD6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B593C45915ED74FE003CFD6A /* InfoPlist.strings */; };
+		B593C45E15ED74FE003CFD6A /* BalerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B593C45D15ED74FE003CFD6A /* BalerTests.m */; };
+		B593C49A15EFE96D003CFD6A /* MyBalerBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B593C49915EFE96D003CFD6A /* MyBalerBundle.m */; };
+		B593C4A815EFEBD1003CFD6A /* MyBalerBundleUncompressed.m in Sources */ = {isa = PBXBuildFile; fileRef = B593C4A715EFEBD1003CFD6A /* MyBalerBundleUncompressed.m */; };
+		B593C4AC15EFF036003CFD6A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B593C4AB15EFF036003CFD6A /* libz.dylib */; };
+		B593C4AD15EFF03F003CFD6A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B593C4AB15EFF036003CFD6A /* libz.dylib */; };
+		B59B8A1C18C53C2700E2E973 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59B8A1B18C53C2700E2E973 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B593C45415ED74FE003CFD6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B593C42B15ED74FE003CFD6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B593C43315ED74FE003CFD6A;
+			remoteInfo = Baler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B593C43415ED74FE003CFD6A /* Baler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B593C43815ED74FE003CFD6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B593C43A15ED74FE003CFD6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B593C43C15ED74FE003CFD6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B593C44015ED74FE003CFD6A /* Baler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Baler-Info.plist"; sourceTree = "<group>"; };
+		B593C44215ED74FE003CFD6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B593C44415ED74FE003CFD6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B593C44615ED74FE003CFD6A /* Baler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baler-Prefix.pch"; sourceTree = "<group>"; };
+		B593C44715ED74FE003CFD6A /* BalerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalerAppDelegate.h; sourceTree = "<group>"; };
+		B593C44815ED74FE003CFD6A /* BalerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BalerAppDelegate.m; sourceTree = "<group>"; };
+		B593C44F15ED74FE003CFD6A /* BalerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BalerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B593C45015ED74FE003CFD6A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B593C45815ED74FE003CFD6A /* BalerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BalerTests-Info.plist"; sourceTree = "<group>"; };
+		B593C45A15ED74FE003CFD6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B593C45C15ED74FE003CFD6A /* BalerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalerTests.h; sourceTree = "<group>"; };
+		B593C45D15ED74FE003CFD6A /* BalerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BalerTests.m; sourceTree = "<group>"; };
+		B593C48215EFE8DF003CFD6A /* ama_dablam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ama_dablam.png; sourceTree = "<group>"; };
+		B593C48315EFE8DF003CFD6A /* ama_dablam@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ama_dablam@2x.png"; sourceTree = "<group>"; };
+		B593C49815EFE96D003CFD6A /* MyBalerBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBalerBundle.h; sourceTree = "<group>"; };
+		B593C49915EFE96D003CFD6A /* MyBalerBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBalerBundle.m; sourceTree = "<group>"; };
+		B593C49F15EFEB54003CFD6A /* MyBalerBundle.h.j2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyBalerBundle.h.j2; sourceTree = "<group>"; };
+		B593C4A015EFEB54003CFD6A /* MyBalerBundle.m.j2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyBalerBundle.m.j2; sourceTree = "<group>"; };
+		B593C4A215EFEB68003CFD6A /* bale.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = bale.py; sourceTree = "<group>"; };
+		B593C4A415EFEB79003CFD6A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		B593C4A615EFEBD1003CFD6A /* MyBalerBundleUncompressed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBalerBundleUncompressed.h; sourceTree = "<group>"; };
+		B593C4A715EFEBD1003CFD6A /* MyBalerBundleUncompressed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBalerBundleUncompressed.m; sourceTree = "<group>"; };
+		B593C4AB15EFF036003CFD6A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B59B8A1B18C53C2700E2E973 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B593C43115ED74FE003CFD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593C4AC15EFF036003CFD6A /* libz.dylib in Frameworks */,
+				B593C43915ED74FE003CFD6A /* UIKit.framework in Frameworks */,
+				B593C43B15ED74FE003CFD6A /* Foundation.framework in Frameworks */,
+				B593C43D15ED74FE003CFD6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593C44B15ED74FE003CFD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593C4AD15EFF03F003CFD6A /* libz.dylib in Frameworks */,
+				B593C45115ED74FE003CFD6A /* SenTestingKit.framework in Frameworks */,
+				B593C45215ED74FE003CFD6A /* UIKit.framework in Frameworks */,
+				B593C45315ED74FE003CFD6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B593C42915ED74FE003CFD6A = {
+			isa = PBXGroup;
+			children = (
+				B59B8A1B18C53C2700E2E973 /* Default-568h@2x.png */,
+				B593C4A515EFEB82003CFD6A /* Non-iOS */,
+				B593C43E15ED74FE003CFD6A /* Baler */,
+				B593C45615ED74FE003CFD6A /* BalerTests */,
+				B593C43715ED74FE003CFD6A /* Frameworks */,
+				B593C43515ED74FE003CFD6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B593C43515ED74FE003CFD6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B593C43415ED74FE003CFD6A /* Baler.app */,
+				B593C44F15ED74FE003CFD6A /* BalerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B593C43715ED74FE003CFD6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B593C4AB15EFF036003CFD6A /* libz.dylib */,
+				B593C43815ED74FE003CFD6A /* UIKit.framework */,
+				B593C43A15ED74FE003CFD6A /* Foundation.framework */,
+				B593C43C15ED74FE003CFD6A /* CoreGraphics.framework */,
+				B593C45015ED74FE003CFD6A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B593C43E15ED74FE003CFD6A /* Baler */ = {
+			isa = PBXGroup;
+			children = (
+				B593C44715ED74FE003CFD6A /* BalerAppDelegate.h */,
+				B593C44815ED74FE003CFD6A /* BalerAppDelegate.m */,
+				B593C49C15EFE972003CFD6A /* Generated files */,
+				B593C43F15ED74FE003CFD6A /* Supporting Files */,
+			);
+			path = Baler;
+			sourceTree = "<group>";
+		};
+		B593C43F15ED74FE003CFD6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B593C44015ED74FE003CFD6A /* Baler-Info.plist */,
+				B593C44115ED74FE003CFD6A /* InfoPlist.strings */,
+				B593C44415ED74FE003CFD6A /* main.m */,
+				B593C44615ED74FE003CFD6A /* Baler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B593C45615ED74FE003CFD6A /* BalerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B593C45C15ED74FE003CFD6A /* BalerTests.h */,
+				B593C45D15ED74FE003CFD6A /* BalerTests.m */,
+				B593C45715ED74FE003CFD6A /* Supporting Files */,
+			);
+			path = BalerTests;
+			sourceTree = "<group>";
+		};
+		B593C45715ED74FE003CFD6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B593C45815ED74FE003CFD6A /* BalerTests-Info.plist */,
+				B593C45915ED74FE003CFD6A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B593C46715ED7504003CFD6A /* Test assets */ = {
+			isa = PBXGroup;
+			children = (
+				B593C48215EFE8DF003CFD6A /* ama_dablam.png */,
+				B593C48315EFE8DF003CFD6A /* ama_dablam@2x.png */,
+			);
+			name = "Test assets";
+			path = test_assets;
+			sourceTree = "<group>";
+		};
+		B593C49C15EFE972003CFD6A /* Generated files */ = {
+			isa = PBXGroup;
+			children = (
+				B593C49815EFE96D003CFD6A /* MyBalerBundle.h */,
+				B593C49915EFE96D003CFD6A /* MyBalerBundle.m */,
+				B593C4A615EFEBD1003CFD6A /* MyBalerBundleUncompressed.h */,
+				B593C4A715EFEBD1003CFD6A /* MyBalerBundleUncompressed.m */,
+			);
+			name = "Generated files";
+			sourceTree = "<group>";
+		};
+		B593C49E15EFEB45003CFD6A /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				B593C49F15EFEB54003CFD6A /* MyBalerBundle.h.j2 */,
+				B593C4A015EFEB54003CFD6A /* MyBalerBundle.m.j2 */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+		B593C4A115EFEB59003CFD6A /* Python */ = {
+			isa = PBXGroup;
+			children = (
+				B593C4A215EFEB68003CFD6A /* bale.py */,
+			);
+			name = Python;
+			sourceTree = "<group>";
+		};
+		B593C4A315EFEB6C003CFD6A /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				B593C4A415EFEB79003CFD6A /* readme.md */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		B593C4A515EFEB82003CFD6A /* Non-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B593C4A315EFEB6C003CFD6A /* Documentation */,
+				B593C4A115EFEB59003CFD6A /* Python */,
+				B593C49E15EFEB45003CFD6A /* Templates */,
+				B593C46715ED7504003CFD6A /* Test assets */,
+			);
+			name = "Non-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B593C43315ED74FE003CFD6A /* Baler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B593C46115ED74FE003CFD6A /* Build configuration list for PBXNativeTarget "Baler" */;
+			buildPhases = (
+				B593C49D15EFE9B1003CFD6A /* ShellScript */,
+				B593C43015ED74FE003CFD6A /* Sources */,
+				B593C43115ED74FE003CFD6A /* Frameworks */,
+				B593C43215ED74FE003CFD6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baler;
+			productName = Baler;
+			productReference = B593C43415ED74FE003CFD6A /* Baler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B593C44E15ED74FE003CFD6A /* BalerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B593C46415ED74FE003CFD6A /* Build configuration list for PBXNativeTarget "BalerTests" */;
+			buildPhases = (
+				B593C44A15ED74FE003CFD6A /* Sources */,
+				B593C44B15ED74FE003CFD6A /* Frameworks */,
+				B593C44C15ED74FE003CFD6A /* Resources */,
+				B593C44D15ED74FE003CFD6A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B593C45515ED74FE003CFD6A /* PBXTargetDependency */,
+			);
+			name = BalerTests;
+			productName = BalerTests;
+			productReference = B593C44F15ED74FE003CFD6A /* BalerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B593C42B15ED74FE003CFD6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Baler;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = PayPal;
+			};
+			buildConfigurationList = B593C42E15ED74FE003CFD6A /* Build configuration list for PBXProject "Baler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B593C42915ED74FE003CFD6A;
+			productRefGroup = B593C43515ED74FE003CFD6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B593C43315ED74FE003CFD6A /* Baler */,
+				B593C44E15ED74FE003CFD6A /* BalerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B593C43215ED74FE003CFD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593C44315ED74FE003CFD6A /* InfoPlist.strings in Resources */,
+				B59B8A1C18C53C2700E2E973 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593C44C15ED74FE003CFD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593C45B15ED74FE003CFD6A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B593C44D15ED74FE003CFD6A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		B593C49D15EFE9B1003CFD6A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "~/.virtualenvs/baler/bin/python ../bale test_assets/ Baler --overwrite-delay 0 --class-name MyBalerBundle\n~/.virtualenvs/baler/bin/python ../bale test_assets/ Baler --overwrite-delay 0 --do-not-compress --class-name MyBalerBundleUncompressed";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B593C43015ED74FE003CFD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593C44515ED74FE003CFD6A /* main.m in Sources */,
+				B593C44915ED74FE003CFD6A /* BalerAppDelegate.m in Sources */,
+				B593C49A15EFE96D003CFD6A /* MyBalerBundle.m in Sources */,
+				B593C4A815EFEBD1003CFD6A /* MyBalerBundleUncompressed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593C44A15ED74FE003CFD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593C45E15ED74FE003CFD6A /* BalerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B593C45515ED74FE003CFD6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B593C43315ED74FE003CFD6A /* Baler */;
+			targetProxy = B593C45415ED74FE003CFD6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B593C44115ED74FE003CFD6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B593C44215ED74FE003CFD6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B593C45915ED74FE003CFD6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B593C45A15ED74FE003CFD6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B593C45F15ED74FE003CFD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B593C46015ED74FE003CFD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B593C46215ED74FE003CFD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baler/Baler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "BALER_DEBUG=1";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "BALER_DEBUG=1";
+				INFOPLIST_FILE = "Baler/Baler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B593C46315ED74FE003CFD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baler/Baler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "BALER_DEBUG=1";
+				INFOPLIST_FILE = "Baler/Baler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B593C46515ED74FE003CFD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Baler.app/Baler";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baler/Baler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "BALER_DEBUG=1";
+				INFOPLIST_FILE = "BalerTests/BalerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B593C46615ED74FE003CFD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Baler.app/Baler";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baler/Baler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "BALER_DEBUG=1";
+				INFOPLIST_FILE = "BalerTests/BalerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B593C42E15ED74FE003CFD6A /* Build configuration list for PBXProject "Baler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593C45F15ED74FE003CFD6A /* Debug */,
+				B593C46015ED74FE003CFD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B593C46115ED74FE003CFD6A /* Build configuration list for PBXNativeTarget "Baler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593C46215ED74FE003CFD6A /* Debug */,
+				B593C46315ED74FE003CFD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B593C46415ED74FE003CFD6A /* Build configuration list for PBXNativeTarget "BalerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593C46515ED74FE003CFD6A /* Debug */,
+				B593C46615ED74FE003CFD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B593C42B15ED74FE003CFD6A /* Project object */;
+}
