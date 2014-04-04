@@ -12,8 +12,8 @@ if os.path.exists('LICENSE'):
     license = open('LICENSE').read()
 
 setup(name='baler',
-      version='1.0',
-      description='Painlessly bundle resources in a static iOS library.',
+      version='1.0.1',
+      description='Bundle assets into iOS static libraries',
       long_description=long_description,
       keywords=['ios', 'objective-c', 'generation', 'static', 'resource', 'NSBundle', 'mobile'],
       author='PayPal SDK Team',
