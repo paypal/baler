@@ -1,0 +1,2 @@
+include README.rst LICENSE CONTRIBUTING.md
+include baler/templates/*.j2
