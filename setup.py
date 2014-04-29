@@ -12,7 +12,7 @@ if os.path.exists('LICENSE'):
     license = open('LICENSE').read()
 
 setup(name='baler',
-      version='1.0.2',
+      version='1.0.3',
       description='Bundle assets into iOS static libraries',
       long_description=long_description,
       keywords=['ios', 'objective-c', 'generation', 'static', 'resource', 'NSBundle', 'mobile'],
@@ -26,7 +26,7 @@ setup(name='baler',
       license=license,
       install_requires=[
           'Jinja2 >= 2.6',
-          'argparse >= 1.2.1',
+          'argparse >= 1.1',
           'biplist >= 0.5',
           'six >= 1.2.0',
           'wsgiref >= 0.1.2',
