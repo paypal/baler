@@ -45,13 +45,8 @@
 - (id)initPrivate {
   self = [super init];
   if(self) {
-    NSDictionary *expandedBundle = [self expandBundle];
-    if(!expandedBundle) {
-      return nil;
-    }
-    BOOL saved = [self saveBundle:expandedBundle];
-    if(!saved) {
-      return nil;
+    if(![self expandBundleAndSave]) {
+      self = nil;
     }
   }
   return self;
@@ -60,6 +55,18 @@
 - (id)init {
   [NSException raise:@"Singleton" format:@"{{classname}} is a singleton object. Use +sharedInstance instead."];
   return nil;
+}
+
+- (BOOL)expandBundleAndSave {
+  NSDictionary *expandedBundle = [self expandBundle];
+  if(!expandedBundle) {
+    return NO;
+  }
+  BOOL saved = [self saveBundle:expandedBundle];
+  if(!saved) {
+    return NO;
+  }
+  return YES;
 }
 
 - (NSDictionary *)expandBundle {
@@ -178,7 +185,16 @@
 }
 
 - (NSBundle *)NSBundle {
-  return [NSBundle bundleWithPath:[self bundlePath]];
+  NSBundle *bundle = [NSBundle bundleWithPath:[self bundlePath]];
+  NSArray *bundleContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:[self bundlePath] error:nil];
+  if(![bundleContents count]) {
+    // Apparently someone has cleared the caches dir. So recreate now.
+    if(![self expandBundleAndSave]) {
+      return nil;
+    }
+  }
+
+  return bundle;
 }
 
 // What a PITA! I wish imageNamed: could be used with a user-specified bundle. :(
