@@ -185,16 +185,15 @@
 }
 
 - (NSBundle *)NSBundle {
-  NSBundle *bundle = [NSBundle bundleWithPath:[self bundlePath]];
-  NSArray *bundleContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:[self bundlePath] error:nil];
-  if(![bundleContents count]) {
+  NSString *bundlePath = [self bundlePath];
+  if(![[NSFileManager defaultManager] fileExistsAtPath:bundlePath]) {
     // Apparently someone has cleared the caches dir. So recreate now.
     if(![self expandBundleAndSave]) {
       return nil;
     }
   }
 
-  return bundle;
+  return [NSBundle bundleWithPath:bundlePath];
 }
 
 // What a PITA! I wish imageNamed: could be used with a user-specified bundle. :(
